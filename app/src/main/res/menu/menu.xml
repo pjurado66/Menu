@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/new_game"
+        android:icon="@drawable/ic_baseline_note_add_24"
+        android:title="Nueva partida"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/help"
+        android:icon="@drawable/ic_baseline_help_24"
+        android:title="Ayuda" />
+    <item android:id="@+id/file"
+        android:title="File" >
+        <menu>
+            <item android:id="@+id/create_new"
+                android:title="Crear nuevo" />
+            <item android:id="@+id/open"
+                android:title="abrir" />
+        </menu>
+    </item>
+</menu>
